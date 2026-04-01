@@ -1,0 +1,58 @@
+# Butterfly theme overrides
+# Full reference: node_modules/hexo-theme-butterfly/_config.yml
+
+nav:
+  display_title: true
+  display_post_title: true
+  fixed: false
+
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tags
+
+subtitle:
+  enable: true
+  effect: true
+  sub:
+    - 记录想法
+    - 分享折腾
+    - 保持更新
+
+index_layout: 3
+
+search:
+  use:
+  placeholder: 搜索站内内容
+
+toc:
+  post: true
+  page: false
+  number: true
+  expand: false
+  scroll_percent: true
+
+social:
+  fab fa-github: https://github.com/hmmzhtx || GitHub || '#24292e'
+
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  display:
+    archive: true
+    tag: true
+    category: true
+
+footer:
+  owner:
+    enable: true
+    since: 2026
+
+post_copyright:
+  enable: true
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
