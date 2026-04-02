@@ -2,19 +2,19 @@
 # Docs: https://hexo.io/docs/configuration.html
 
 # Site
-title: hexo-hmm
-subtitle: ''
-description: '一个默认的中文 Hexo 博客站点'
+title: 个人在互联网中的琐碎
+subtitle: 记录技术、思考与日常
+description: '简单、随性'
 keywords:
   - 博客
   - Hexo
   - Butterfly
-author: hmmzhtx
+author: hmm
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
-url: https://hexo-hmm.pages.dev
+url: https://hexo-60k.pages.dev
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
